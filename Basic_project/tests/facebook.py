@@ -52,6 +52,6 @@ driver.implicitly_wait(20)
 
 element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, "//h1[contains(text(),'Your Account')]")))
 print("Your Account page is displayed :", element.text)
-print("thank you for using this script")
+print("thank you for script")
 
 
